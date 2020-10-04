@@ -9,7 +9,7 @@ let ejs=require('ejs');
 app.set("view engine","ejs");
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin-amala:Smash1551@cluster0.yzaqe.mongodb.net/Imagiminds?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin-amala:**********@cluster0.yzaqe.mongodb.net/Imagiminds?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useUnifiedTopology: true,useNewUrlParser: true });
 client.connect(err => {
   //const col = client.db("Imagiminds").collection("newusers");
